@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+      Топ мемов
+    </title>
+</head>
+<body>
+  <h3 align="center">
+    <a href="мемы топ.html">
+      Самые смешные мемы с животными
+    </a>
+  </h3>
+  <h3 align="center">
+    <a href="#">
+      Список самых смешных мемов с животными
+    </a>
+  </h3>
+  <hr>
+    <details><summary>График</summary>
+      <table cellspacing="10">
+        <tr align="center">
+          <td><b>Значение по оси OX</b></td>
+	  <td><b>Результат</b></td>
+        </tr>
+        <tr>
+          <td><form>
+	    <label><input type="radio" name="OX" value="Type">Вид животного<br>
+            <label><input type="radio" name="OX" value="Year">Год
+	  </td>
+	  <td><form> 
+            <label><input type="checkbox" name="Result" value="Count">Количество</label> <br>
+            <label><input type="checkbox" name="Result" value="Likes">Суммарно лайков</label>
+        </tr>
+      </table>
+    </details>
+    <details><summary>Фильтр</summary>
+      <form>
+        <p><label>Название: <input type="text" name="Name"></label></p>
+        <p><label>Животное: <input type="text" name="Animal"></label></p>
+        <p><label>Год создания от: <input type="text" name="Year1"> до: <input type="text" name="Year2"></label></p>
+        <p><label>Лайки от: <input type="text" name="Likes1"> до: <input type="text" name="Likes2"></label></p>
+        </form>
+    </details>
+    <details><summary>Сортировка</summary>
+      <p>Первый уровень: <select name="layer1">
+	<option value="0" selected> Нет </option>
+ 	<option value="1"> Название </option>
+ 	<option value="2"> Год </option>
+ 	<option value="3"> Лайки </option>
+ 	<option value="4"> Мем </option>
+ 	<option value="5"> Животное </option>
+	</select>
+	по убыванию? <input type="checkbox" name="toLower" value="0">
+      </p>
+      <p>Второй уровень: <select name="layer1">
+	<option value="0" selected> Нет </option>
+ 	<option value="1"> Название </option>
+ 	<option value="2"> Год </option>
+ 	<option value="3"> Лайки </option>
+ 	<option value="4"> Мем </option>
+ 	<option value="5"> Животное </option>
+	</select>
+	по убыванию? <input type="checkbox" name="toLower" value="0">
+      </p>
+      <p>Третий уровень: <select name="layer1">
+	<option value="0" selected> Нет </option>
+ 	<option value="1"> Название </option>
+ 	<option value="2"> Год </option>
+ 	<option value="3"> Лайки </option>
+ 	<option value="4"> Мем </option>
+ 	<option value="5"> Животное </option>
+	</select>
+	по убыванию? <input type="checkbox" name="toLower" value="0">
+      </p>
+    </details>
+    <table align="center" cellpadding="10" cellspacing="0" width="80%" border="2">
+      <tr>
+        <td>Номер
+        </td>
+        <td>Мем
+        </td>
+        <td>Название
+        </td>
+        <td>Животное
+        </td>
+        <td>Год создания
+        </td>
+	<td>Лайки, млн
+        </td>
+      </tr>
+      <tr>
+        <td>1
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB9CWoWr-qT9qhngquBfc-YHC_s6x8wA34mA&s" width="100" height="100">
+        </td>
+        <td>Pedro
+        </td>
+        <td>Енот
+        </td>
+        <td>2024
+        </td>
+	<td>100
+        </td>
+      </tr>
+      <tr>
+        <td>2
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUerZ6h8uk83iXB1HdrPsV8PcxGSY1z3YFzw&s" width="60" height="100">
+        </td>
+        <td>Top 10 Goobie Woobies
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+	<td>20
+        </td>
+      </tr>
+      <tr>
+        <td>3
+        </td>
+        <td><img src="https://media1.tenor.com/m/UCRNd2v5sH4AAAAC/screaming-cat-cat-screaming.gif" width="60" height="100">
+        </td>
+        <td>screaming black cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>4
+        </td>
+        <td><img src="https://sun1-20.userapi.com/kE0Z8uXWgGkbmOTRTQJg2v05ocVxptqriq_YjQ/QUZcNGScCE4.jpg" width="120" height="100">
+        </td>
+        <td>Кот за рулём
+        </td>
+        <td>Кот
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>5
+        </td>
+        <td><img src="https://i.imgur.com/6Ndi5Yw.jpeg" width="100" height="100">
+        </td>
+        <td>Кот Максвел
+        </td>
+        <td>Кот
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>6
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZj-icu1Py847xFBUIU4BrLImfXPqcPD7eyw&s" width="100" height="100">
+        </td>
+        <td>Pop cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2020
+        </td>
+      </tr>
+      <tr>
+        <td>7
+        </td>
+        <td><img src="https://opis-cdn.tinkoffjournal.ru/mercury/15-cats-mem.f1iqplvglndz..gif" width="100" height="100">
+        </td>
+        <td>Кот пилит когти
+        </td>
+        <td>Кот
+        </td>
+        <td>2011
+        </td>
+      </tr>
+      <tr>
+        <td>8
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/1xf09fa4ac.webp" width="100" height="100">
+        </td>
+        <td>Grumpy cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>9
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/4xf09fa5b1.webp" width="100" height="100">
+        </td>
+        <td>Sleepy cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>10
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/14xf09f988f.webp" width="100" height="100">
+        </td>
+        <td>Sly smiling dog
+        </td>
+        <td>Собака
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>11
+        </td>
+        <td><img src="https://steamuserimages-a.akamaihd.net/ugc/2276073780756304881/4F66EEC5206D451C7A2DD77DD8B46E6D1F6F7399/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="130" height="100">
+        </td>
+        <td>Chipi chipi chapa chapa
+        </td>
+        <td>Кот
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>12
+        </td>
+        <td><img src="https://media.tenor.com/N3qwkwoXDD0AAAAM/crunch-cat.gif" width="100" height="100">
+        </td>
+        <td>Crunchy cat Luna
+        </td>
+        <td>Кот
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>13
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/21xf09fa5a3.webp" width="100" height="100">
+        </td>
+        <td>Кот с миской
+        </td>
+        <td>Кот
+        </td>
+        <td>2024
+        </td>
+      </tr>
+      <tr>
+        <td>14
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/32xf09f98be.webp" width="100" height="100">
+        </td>
+        <td>Huh cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>15
+        </td>
+        <td><img src="https://sl.combot.org/tiktok_cats_animals/webp/39xf09f98bc.webp" width="100" height="100">
+        </td>
+        <td>Judgemental cat
+        </td>
+        <td>Кот
+        </td>
+        <td>2021
+        </td>
+      </tr>
+      <tr>
+        <td>16
+        </td>
+        <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB_jKWAbv26c2OeJs6dExwEvD-_gcc4kCAVo3LqetiYUamaiAx" width="100" height="100">
+        </td>
+        <td>GubGub(Gub4life)
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>17
+        </td>
+        <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThBYtJyn2vFOpEp7LLh0vonmkuWMPI6977dby54K0tuMo3k8Ao" width="100" height="100">
+        </td>
+        <td>eEren
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>18
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVUeimWxiMcQwcSeBg8ezUh48iGw4O8YfR0oxQX6eofI5PS5z" width="100" height="100">
+        </td>
+        <td>TJ Kream (hella beast)
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>19
+        </td>
+        <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEuJDit5m4LwrVdodX4FuG23oQEncHtd4Gr96GV7czvP7dgYtf" width="100" height="100">
+        </td>
+        <td>Goopey (da menace)
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>20
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WP9hxxedbuAYPrOSsy9iJhWghnoDnH0nf7vlbQ7_aSGGQtNV" width="100" height="100">
+        </td>
+        <td>Stoopu Doopu (GOAT)
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>21
+        </td>
+        <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHiBY7nxutJzNFfPtqHsPt8U4s_yiau-BOe3kM3pKG20iSWzAZ" width="100" height="100">
+        </td>
+        <td>Goopu Loopu (funny guy)
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>22
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsrVf-6vog015J3HUmuc38BwYsA7skhZzJeiZkQqq1W2VKRm5I" width="100" height="100">
+        </td>
+        <td>Glub-Tubbas Wepple
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>23
+        </td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGZk6cKmUaZKiZJPcPY1Im3o2IcKbzrSE6ArbwRXV82Gcy2B9" width="100" height="100">
+        </td>
+        <td>Mr. Denmark
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>24
+        </td>
+        <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfR7bbUftOG85mJQpfxXom-SWdxwOuQRWQZ1btOwqLZjlY4sDe" width="180" height="100">
+        </td>
+        <td>Mr. Dubstep
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>25
+        </td>
+        <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXALfwyG7oexMLefTocQPwKD7jXBvtxiYpkr-VIC4IGFQdgFx9" width="100" height="100">
+        </td>
+        <td>This guy
+        </td>
+        <td>Хомяк
+        </td>
+        <td>2022
+        </td>
+      </tr>
+      <tr>
+        <td>26
+        </td>
+        <td><img src="https://i.pinimg.com/enabled_hi/474x/ee/47/fb/ee47fba4139300d3c4aa4e9f040f6743.jpg" width="100" height="100">
+        </td>
+        <td>Фи
+        </td>
+        <td>Кот
+        </td>
+        <td>2017
+        </td>
+      </tr>
+      <tr>
+        <td>27
+        </td>
+        <td><img src="https://neolurk.org/w/images/1/11/Zhkt1.jpg" width="190" height="100">
+        </td>
+        <td>Женщина кричит на кота
+        </td>
+        <td>Кот
+        </td>
+        <td>2019
+        </td>
+      </tr>
+      <tr>
+        <td>28
+        </td>
+        <td><img src="https://imgcdn.sigstick.com/dTryYbfcB9lRWE2W3Y9z/17.thumb128.webp" width="100" height="100">
+        </td>
+        <td>Волк ихвельнихт
+        </td>
+        <td>Волк
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>29
+        </td>
+        <td><img src="https://imgcdn.sigstick.com/dTryYbfcB9lRWE2W3Y9z/23.thumb128.webp" width="100" height="100">
+        </td>
+        <td>Confused dog
+        </td>
+        <td>Собака
+        </td>
+        <td>2021
+        </td>
+      </tr>
+      <tr>
+        <td>30
+        </td>
+        <td><img src="https://imgcdn.sigstick.com/dTryYbfcB9lRWE2W3Y9z/6.thumb128.webp" width="100" height="100">
+        </td>
+        <td>Волнующейся кот
+        </td>
+        <td>Кот
+        </td>
+        <td>2023
+        </td>
+      </tr>
+      <tr>
+        <td>31
+        </td>
+        <td><img src="https://imgcdn.sigstick.com/dTryYbfcB9lRWE2W3Y9z/12.thumb128.webp" width="100" height="100">
+        </td>
+        <td>Грустный кот
+        </td>
+        <td>Кот
+        </td>
+        <td>2018
+        </td>
+      </tr>
+      <tr>
+        <td>32
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>33
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>34
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>35
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>36
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>37
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>38
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>39
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>40
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>41
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>42
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>43
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>44
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>45
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>46
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>47
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>48
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>49
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>50
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table>
+  <hr>
+</body>
+</html>
